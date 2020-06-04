@@ -1,0 +1,1 @@
+/usr/local/potato.cdt/bin/potato-ld  CMakeFiles/poc.token.dir/src/poc.token.cpp.obj -o poc.token.wasm 

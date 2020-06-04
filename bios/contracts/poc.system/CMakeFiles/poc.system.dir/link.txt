@@ -1,0 +1,1 @@
+/usr/local/potato.cdt/bin/potato-ld  CMakeFiles/poc.system.dir/src/poc.system.cpp.obj -o poc.system.wasm 

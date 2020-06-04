@@ -1,0 +1,88 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0c22/fast"
+make[3]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_e0c22.dir/build.make CMakeFiles/cmTC_e0c22.dir/build
+make[4]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e0c22.dir/CMakeCCompilerABI.c.obj
+/usr/local/potato.cdt/bin/potato-cc    -o CMakeFiles/cmTC_e0c22.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e0c22.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c22.dir/link.txt --verbose=1
+/usr/local/potato.cdt/bin/potato-ld  -v CMakeFiles/cmTC_e0c22.dir/CMakeCCompilerABI.c.obj -o cmTC_e0c22.wasm 
+potato-ld: Unknown command line argument '-v'.  Try: '/usr/local/potato.cdt/bin/potato-ld -help'
+potato-ld: Did you mean '-L'?
+CMakeFiles/cmTC_e0c22.dir/build.make:97: recipe for target 'cmTC_e0c22.wasm' failed
+make[4]: *** [cmTC_e0c22.wasm] Error 1
+make[4]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_e0c22/fast' failed
+make[3]: *** [cmTC_e0c22/fast] Error 2
+make[3]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_934b2/fast"
+make[3]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_934b2.dir/build.make CMakeFiles/cmTC_934b2.dir/build
+make[4]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_934b2.dir/feature_tests.c.obj
+/usr/local/potato.cdt/bin/potato-cc   -std=c11 -o CMakeFiles/cmTC_934b2.dir/feature_tests.c.obj   -c /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/feature_tests.c
+potato-cc: Unknown command line argument '-std=c11'.  Try: '/usr/local/potato.cdt/bin/potato-cc -help'
+potato-cc: Did you mean '-dD=c11'?
+CMakeFiles/cmTC_934b2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_934b2.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_934b2.dir/feature_tests.c.obj] Error 1
+make[4]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_934b2/fast' failed
+make[3]: *** [cmTC_934b2/fast] Error 2
+make[3]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7aa2/fast"
+make[3]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_c7aa2.dir/build.make CMakeFiles/cmTC_c7aa2.dir/build
+make[4]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c7aa2.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/potato.cdt/bin/potato-cpp     -o CMakeFiles/cmTC_c7aa2.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c7aa2.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7aa2.dir/link.txt --verbose=1
+/usr/local/potato.cdt/bin/potato-ld  -v CMakeFiles/cmTC_c7aa2.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c7aa2.wasm 
+potato-ld: Unknown command line argument '-v'.  Try: '/usr/local/potato.cdt/bin/potato-ld -help'
+potato-ld: Did you mean '-L'?
+CMakeFiles/cmTC_c7aa2.dir/build.make:97: recipe for target 'cmTC_c7aa2.wasm' failed
+make[4]: *** [cmTC_c7aa2.wasm] Error 1
+make[4]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_c7aa2/fast' failed
+make[3]: *** [cmTC_c7aa2/fast] Error 2
+make[3]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14238/fast"
+make[3]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+/usr/bin/make -f CMakeFiles/cmTC_14238.dir/build.make CMakeFiles/cmTC_14238.dir/build
+make[4]: 进入目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_14238.dir/feature_tests.cxx.obj
+/usr/local/potato.cdt/bin/potato-cpp    -std=c++1z -o CMakeFiles/cmTC_14238.dir/feature_tests.cxx.obj -c /home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14238.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14238.dir/link.txt --verbose=1
+/usr/local/potato.cdt/bin/potato-ld   CMakeFiles/cmTC_14238.dir/feature_tests.cxx.obj -o cmTC_14238.wasm 
+/usr/local/potato.cdt/bin/wasm-ld: error: undefined symbol: apply
+CMakeFiles/cmTC_14238.dir/build.make:97: recipe for target 'cmTC_14238.wasm' failed
+make[4]: *** [cmTC_14238.wasm] Error 255
+make[4]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_14238/fast' failed
+make[3]: *** [cmTC_14238/fast] Error 2
+make[3]: 离开目录“/home/anbox/potato_coin/potato.contracts/build/contracts/CMakeFiles/CMakeTmp”
+
+
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anbox/potato_coin/potato.contracts/contracts/poc.wrap/include/poc.wrap/poc.wrap.hpp
+potatolib/potato.hpp
+-
+potatolib/ignore.hpp
+-
+potatolib/transaction.hpp
+-
+
+/home/anbox/potato_coin/potato.contracts/contracts/poc.wrap/src/poc.wrap.cpp
+poc.wrap/poc.wrap.hpp
+-
+

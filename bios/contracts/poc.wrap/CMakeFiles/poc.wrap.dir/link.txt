@@ -1,0 +1,1 @@
+/usr/local/potato.cdt/bin/potato-ld  CMakeFiles/poc.wrap.dir/src/poc.wrap.cpp.obj -o poc.wrap.wasm 

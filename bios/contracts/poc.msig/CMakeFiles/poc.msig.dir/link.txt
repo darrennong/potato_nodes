@@ -1,0 +1,1 @@
+/usr/local/potato.cdt/bin/potato-ld  CMakeFiles/poc.msig.dir/src/poc.msig.cpp.obj -o poc.msig.wasm 

@@ -1,0 +1,1 @@
+/usr/local/potato.cdt/bin/potato-ld  CMakeFiles/poc.bios.dir/src/poc.bios.cpp.obj -o poc.bios.wasm 
